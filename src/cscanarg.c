@@ -3,12 +3,6 @@
 #include <string.h>
 #include "cscanarg.h"
 
-struct ASState {
-    int argc;
-    char** argv;
-    int argi;
-};
-
 ASState* ASStateInit(int argc, char* argv[], int argi) {
 
     ASState* ass = (ASState*)malloc(sizeof(ASState));

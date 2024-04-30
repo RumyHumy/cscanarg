@@ -2,11 +2,11 @@
 ## Building example.c:
 ```shell
 g++ -c example.c -o bin/main.o
-g++ -c src/argscan.c -o src/argscan.o
-g++ bin/main.o src/argscan.o -o bin/build.exe
+g++ -c src/cscanarg.c -o bin/cscanarg.o
+g++ bin/main.o bin/cscanarg.o -o bin/example.exe
 ```
 
-## Running example.c:
+## Running example.exe:
 ```shell
-./bin/build.exe 1 2 7.77 0.42256 "hello mom"
+./bin/example.exe 1 2 7.77 0.42256 "hello mom"
 ```

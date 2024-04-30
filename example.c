@@ -1,8 +1,6 @@
-
-
 #include <stdio.h>
 #include <cstdlib>
-#include "cscanarg.h"
+#include "src/cscanarg.h"
 
 int main(int argc, char *argv[]) {
     // Setup
