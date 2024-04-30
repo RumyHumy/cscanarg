@@ -1,4 +1,4 @@
-# Example of usage
+# Example
 
 ## example.c code
 ```c
