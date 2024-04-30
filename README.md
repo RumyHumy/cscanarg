@@ -1,10 +1,5 @@
 # Example of usage
 
-## Running example.exe:
-```shell
-./bin/example.exe 1 2 7.77 0.42256 "hello mom"
-```
-
 ## example.c code
 ```c
 #include <stdio.h>
@@ -21,7 +16,7 @@ int main(int argc, char *argv[]) {
     double d;
     char *str;
 
-    // Reading arguments & Printing values
+    // Scanning arguments & Printing values
     scanarg(ass, ST_INT, &a);
     scanarg(ass, ST_INT, &b);
     printf("%d %d\n", a, b);
@@ -37,6 +32,19 @@ int main(int argc, char *argv[]) {
     
     return 0;
 }
+```
+
+## Running example.exe:
+```shell
+./bin/example.exe 1 2 7.77 0.42256 "hello mom"
+```
+
+## Output
+```txt
+1 2                             
+7.770000
+0.422560                        
+hello mom
 ```
 
 ## Building example.c:

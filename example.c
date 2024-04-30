@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
     double d;
     char *str;
 
-    // Reading arguments & Printing values
+    // Scanning arguments & Printing values
     scanarg(ass, ST_INT, &a);
     scanarg(ass, ST_INT, &b);
     printf("%d %d\n", a, b);
